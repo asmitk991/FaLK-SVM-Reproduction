@@ -22,6 +22,10 @@ This repository contains a professional implementation and reproduction of the *
   - `08_Failure_Modes.ipynb` - Dimensional degradation and high-sparse data boundary tests
 - `data/` - Cached synthetic spatial distributions
 - `results/` - Model performance comparison plots
+  - `raw_spiral_dataset.png` - 2-Spiral dataset topology
+  - `falksvm_decision_boundary.png` - FaLK-SVM eager manifold boundary
+  - `ablation_performance_analysis.png` - Comparative study vs. Random/Centred models
+  - `dimensionality_failure_mode.png` - Analysis of performance decay in high dimensions
 - `requirements.txt` - Python environment dependencies
 
 ## Getting Started
