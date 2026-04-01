@@ -1,0 +1,127 @@
+{
+  "student_metadata": {
+    "name": "Asmit Kumar",
+    "roll_number": "230063",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part A",
+    "submission_date": "2026-03-02"
+  },
+
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+
+  "full_llm_interaction_log": [
+
+    {
+      "interaction_id": 1,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Strict verification of Part A selection constraints including allowed venues, year window (2009–2012), and primary method alignment.",
+      "prompt": "Are you clear with all the guidelines and rules for selecting the paper?",
+      "llm_response_used": "Confirmed the constraints regarding allowed venues, year range, and required primary method categories.",
+      "how_it_helped": "Ensured full clarity on eligibility conditions and reduced risk of selecting a non-compliant paper.",
+      "student_verification": "I independently checked the official exam guidelines and cross-verified the venue list and year window.",
+      "confidence_level": 5
+    },
+
+    {
+      "interaction_id": 2,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Verification of official publication details and publisher link authenticity.",
+      "prompt": "Verify this paper: https://jmlr.org/papers/volume11/segata10a/segata10a.pdf",
+      "llm_response_used": "Confirmed that the paper is published in JMLR Volume 11 (2010) and validated metadata.",
+      "how_it_helped": "Ensured the publisher link is official and satisfies the CORE A* venue requirement.",
+      "student_verification": "I cross-checked the JMLR website and verified the volume number, publication year (2010), and authors from the official PDF header.",
+      "confidence_level": 5
+    },
+
+    {
+      "interaction_id": 3,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Confirmation of correct primary method classification in the Part A form.",
+      "prompt": "Is this clearly an SVM paper and can I select Support Vector Machine as the primary method?",
+      "llm_response_used": "Confirmed that the paper proposes a kernel-based local SVM framework (FaLK-SVM) and falls under Support Vector Machines.",
+      "how_it_helped": "Removed ambiguity in selecting 'Support Vector Machine (SVM)' as the primary method.",
+      "student_verification": "I reviewed the abstract and methodology sections confirming that FaLK-SVM is explicitly built on kernel SVM principles.",
+      "confidence_level": 5
+    },
+
+    {
+      "interaction_id": 4,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Verification that the paper represents a methodological contribution rather than an application, survey, or benchmark.",
+      "prompt": "Does this paper count as a methodological contribution and not just an application or benchmarking work?",
+      "llm_response_used": "Confirmed that the paper introduces a new scalable SVM framework (FaLK-SVM) with theoretical analysis and algorithmic contribution.",
+      "how_it_helped": "Ensured the paper satisfies the requirement of being a methodological research contribution.",
+      "student_verification": "I reviewed the algorithm section and theoretical analysis confirming that the paper proposes a novel method with complexity analysis rather than reporting empirical comparisons alone.",
+      "confidence_level": 5
+    },
+
+    {
+      "interaction_id": 5,
+      "date": "2026-03-02",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Assessment of feasibility for Part B implementation and Part C theoretical defense.",
+      "prompt": "Is this paper balanced and suitable for Part B implementation and Part C defense?",
+      "llm_response_used": "Indicated that the paper contains both algorithmic innovation and theoretical justification, making it balanced.",
+      "how_it_helped": "Helped evaluate whether reproduction is CPU-feasible and whether the theoretical depth is manageable.",
+      "student_verification": "I reviewed the experimental section and confirmed that standard datasets are used and that implementation is feasible without heavy computational resources.",
+      "confidence_level": 5
+    }
+
+  ],
+
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "Are you clear with all the guidelines and rules for selecting the paper?",
+      "why_important": "Ensured strict compliance with venue, year, and primary method constraints."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "Verify this paper: https://jmlr.org/papers/volume11/segata10a/segata10a.pdf",
+      "why_important": "Confirmed authenticity of publication details and official publisher source."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "Is this clearly an SVM paper and can I select Support Vector Machine as the primary method?",
+      "why_important": "Prevented incorrect method classification in the submission form."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 4,
+      "prompt": "Does this paper count as a methodological contribution and not just an application or benchmarking work?",
+      "why_important": "Ensured alignment with the methodological contribution requirement."
+    },
+    {
+      "rank": 5,
+      "interaction_id": 5,
+      "prompt": "Is this paper balanced and suitable for Part B implementation and Part C defense?",
+      "why_important": "Helped assess implementation feasibility and conceptual preparedness."
+    }
+  ],
+
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part A.",
+    "understanding_acknowledged": true,
+    "signature": "Asmit Kumar",
+    "date": "2026-03-02"
+  }
+}
